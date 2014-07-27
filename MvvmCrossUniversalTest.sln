@@ -14,13 +14,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{A5011800-CD1F-4253-AA11-F64A1FB6AA7A}"
 	ProjectSection(SolutionItems) = preProject
 		MvvmCrossUniversalTest\lib\Cirrious.CrossCore.dll = MvvmCrossUniversalTest\lib\Cirrious.CrossCore.dll
-		MvvmCrossUniversalTest\lib\Cirrious.CrossCore.WindowsPhone.dll = MvvmCrossUniversalTest\lib\Cirrious.CrossCore.WindowsPhone.dll
-		MvvmCrossUniversalTest\lib\Cirrious.CrossCore.WindowsStore.dll = MvvmCrossUniversalTest\lib\Cirrious.CrossCore.WindowsStore.dll
 		MvvmCrossUniversalTest\lib\Cirrious.MvvmCross.dll = MvvmCrossUniversalTest\lib\Cirrious.MvvmCross.dll
 		MvvmCrossUniversalTest\lib\Cirrious.MvvmCross.Localization.dll = MvvmCrossUniversalTest\lib\Cirrious.MvvmCross.Localization.dll
 		MvvmCrossUniversalTest\lib\Cirrious.MvvmCross.WindowsCommon.dll = MvvmCrossUniversalTest\lib\Cirrious.MvvmCross.WindowsCommon.dll
-		MvvmCrossUniversalTest\lib\Cirrious.MvvmCross.WindowsPhone.dll = MvvmCrossUniversalTest\lib\Cirrious.MvvmCross.WindowsPhone.dll
-		MvvmCrossUniversalTest\lib\Cirrious.MvvmCross.WindowsStore.dll = MvvmCrossUniversalTest\lib\Cirrious.MvvmCross.WindowsStore.dll
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCrossUniversalTest.Core", "MvvmCrossUniversalTest.Core\MvvmCrossUniversalTest.Core.csproj", "{4B213AF9-E5DD-4CEB-8DE8-83BA643D96C8}"
