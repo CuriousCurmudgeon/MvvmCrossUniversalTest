@@ -13,6 +13,7 @@
             <TextBlock Text="First View" FontSize="72"  Foreground="White"/>
             <TextBox Text="{Binding Name, Mode=TwoWay}" BorderBrush="Red" BorderThickness="2"/>
             <TextBlock Text="{Binding Name}" Foreground="White"/>
+            <TextBlock Text="{Binding TimesChanged}" Foreground="Red"/>
         </StackPanel>
         
     </Grid>

@@ -1,4 +1,6 @@
-﻿using Cirrious.MvvmCross.ViewModels;
+﻿using Cirrious.CrossCore.Plugins;
+using Cirrious.MvvmCross.Plugins.Messenger;
+using Cirrious.MvvmCross.ViewModels;
 using Cirrious.MvvmCross.WindowsCommon.Platform;
 using System;
 using System.Collections.Generic;
@@ -18,6 +20,12 @@ namespace MvvmCrossUniversalTest
         protected override IMvxApplication CreateApp()
         {
             return new Core.App();
+        }
+
+        public override void LoadPlugins(IMvxPluginManager pluginManager)
+        {
+            base.LoadPlugins(pluginManager);
+            pluginManager.EnsurePluginLoaded<PluginLoader>();
         }
     }
 }
