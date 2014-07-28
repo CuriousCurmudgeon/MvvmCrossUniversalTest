@@ -1,0 +1,1 @@
+I took the netcore45 assemblies after looking at the plugin source code for Windows Store. It looked like it should work for universal as well.
